@@ -19,6 +19,12 @@ void merge(int angka[], int memori[], int kiri, int tengah, int kanan)
                                     simpan = simpan + 1;
                                     kiri = kiri +1;
                         }
+                        else
+                        {
+                        memori[simpan] = angka[tengah];
+                        simpan = simpan + 1;
+                        tengah = tengah + 1;
+                        }
         	}
 }
 
