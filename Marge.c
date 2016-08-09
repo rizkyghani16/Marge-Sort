@@ -34,9 +34,9 @@ void merge(int angka[], int memori[], int kiri, int tengah, int kanan)
             }
             while (tengah <= kanan)
             {
-            	memori[simpan] = angka[tengah];
-            	tengah = tengah + 1;
-            	simpan = simpan + 1;
+            			memori[simpan] = angka[tengah];
+            			tengah = tengah + 1;
+            			simpan = simpan + 1;
         	}
         	for (i=0; i <= elemen; i++)
             {
