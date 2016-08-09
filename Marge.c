@@ -45,3 +45,7 @@ void merge(int angka[], int memori[], int kiri, int tengah, int kanan)
         	}
 }
 
+void m_sort(int angka[], int memori[], int kiri, int kanan)
+{
+	
+}
