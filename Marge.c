@@ -50,6 +50,9 @@ void m_sort(int angka[], int memori[], int kiri, int kanan)
 			int tengah;
 			if (kanan > kiri)
             {
-            	
+            			tengah = (kanan + kiri) / 2;
+                        m_sort(angka, memori, kiri, tengah);
+                        m_sort(angka, memori, tengah+1, kanan);
+                        merge(angka, memori, kiri, tengah+1, kanan);
         	}
 }
