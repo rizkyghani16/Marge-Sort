@@ -56,3 +56,8 @@ void m_sort(int angka[], int memori[], int kiri, int kanan)
                         merge(angka, memori, kiri, tengah+1, kanan);
         	}
 }
+
+void mergeSort(int angka[], int memori[], int array_size)
+{
+            m_sort(angka, memori, 0, array_size - 1);
+}
