@@ -40,7 +40,7 @@ void merge(int angka[], int memori[], int kiri, int tengah, int kanan)
         	}
         	for (i=0; i <= elemen; i++)
             {
-            	
+            			angka[kanan] = memori[kanan];
         	}
 }
 
