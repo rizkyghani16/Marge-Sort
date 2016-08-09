@@ -13,7 +13,12 @@ void merge(int angka[], int memori[], int kiri, int tengah, int kanan)
             
             while ((kiri <= kiri_akhir) && (tengah <= kanan))
             {
-            
+            			if (angka[kiri] <= angka[tengah])
+                        {
+                                    memori[simpan] = angka[kiri];
+                                    simpan = simpan + 1;
+                                    kiri = kiri +1;
+                        }
         	}
 }
 
