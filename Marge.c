@@ -10,5 +10,10 @@ void merge(int angka[], int memori[], int kiri, int tengah, int kanan)
             kiri_akhir = tengah - 1;
             simpan = kiri;
             elemen = kanan - kiri + 1;
+            
+            while ((kiri <= kiri_akhir) && (tengah <= kanan))
+            {
+            
+        	}
 }
 
