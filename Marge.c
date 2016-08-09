@@ -61,3 +61,21 @@ void mergeSort(int angka[], int memori[], int array_size)
 {
             m_sort(angka, memori, 0, array_size - 1);
 }
+
+int main()
+{
+            int i;
+            printf("Masukkan angka SEBELUM TERURUT : \n");
+            for (i = 0; i < MAX; i++)
+            {
+                        printf ("angka ke %i : ", i+1);
+                        scanf ("%d", &angka[i]);
+            }
+
+            mergeSort(angka, memori, MAX);
+            printf("\nangka SETELAH TERURUT : ");
+            for (i = 0; i < MAX; i++)
+            printf("%d  ", angka[i]);
+            printf("\n");
+            return(0);
+}
