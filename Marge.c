@@ -29,7 +29,8 @@ void merge(int angka[], int memori[], int kiri, int tengah, int kanan)
         	while (kiri <= kiri_akhir)
             {
             			memori[simpan] = angka[kiri];
-						kiri = kiri + 1;	
+						kiri = kiri + 1;
+						simpan = simpan + 1;	
             }
 }
 
